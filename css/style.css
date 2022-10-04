@@ -41,7 +41,23 @@ body {
 .heading h2 {
   font-size: 30px;
 }
- 
+
+ .github{
+    width:100%;
+ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+ }
+
+ .github:hover{
+
+ box-shadow: -3px -3px 7px #ffffff73,
+     				2px 2px 5px rgba(94, 104, 121, 0.288);
+ }
+
+ .github>img{
+
+ width:100%;
+ }
 .heading span {
   font-size: var(--p-font);
   color: rgb(2, 166, 70);
@@ -474,6 +490,8 @@ form textarea {
   .contact-button{
     margin-left: 25%;
   }
+
+
 }
 @media (max-width: 340px) {
   :root {
